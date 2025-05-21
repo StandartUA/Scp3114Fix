@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scp3114Fix", "Scp3114Fix\Scp3114Fix.csproj", "{FFCCEFEC-7D73-4F36-AA40-BBCFE9B62767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFCCEFEC-7D73-4F36-AA40-BBCFE9B62767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCCEFEC-7D73-4F36-AA40-BBCFE9B62767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCCEFEC-7D73-4F36-AA40-BBCFE9B62767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCCEFEC-7D73-4F36-AA40-BBCFE9B62767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C587344-F348-42FB-BDEC-82A5C1356259}
+	EndGlobalSection
+EndGlobal
