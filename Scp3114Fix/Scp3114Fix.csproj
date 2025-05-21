@@ -32,18 +32,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>I:\scpsl-14.1.0\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(EXILED_REFERENCES)\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="LabApi, Version=1.0.2.0, Culture=neutral, processorArchitecture=AMD64">
       <HintPath>..\packages\Northwood.LabAPI.1.0.2\lib\net48\LabApi.dll</HintPath>
     </Reference>
     <Reference Include="Mirror, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>I:\scpsl-14.1.0\Mirror.dll</HintPath>
+      <HintPath>$(EXILED_REFERENCES)\Mirror.dll</HintPath>
     </Reference>
     <Reference Include="Pooling, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>I:\scpsl-14.1.0\Pooling.dll</HintPath>
+      <HintPath>$(EXILED_REFERENCES)\Pooling.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,7 +55,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>I:\scpsl-14.1.0\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(EXILED_REFERENCES)\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="YamlDotNet, Version=11.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
       <HintPath>..\packages\YamlDotNet.11.0.1\lib\net45\YamlDotNet.dll</HintPath>
