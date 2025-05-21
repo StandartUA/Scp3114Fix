@@ -11,15 +11,14 @@ namespace Scp3114Fix
 	{
 		public override void OnPlayerInteractingDoor(PlayerInteractingDoorEventArgs ev)
 		{
-			//Logger.Debug($"Player {ev.Player.Nickname} [{ev.Player.Role}] is trying to interact with door {ev.Door}");
 			if (ev.Player.Role == PlayerRoles.RoleTypeId.Scp3114)
 			{
+				// If user has bypass we not gonna check any permission
 				if (ev.Player.IsBypassEnabled)
 					return;
 				if (ev.Player.CurrentItem?.Category == ItemCategory.Keycard)
 				{
 					DoorPermissionFlags flags = DoorPermissionFlags.None;
-					// If user has bypass we not gonna check any permission
 					// get SCP related permissions.
 					if (ev.Player.RoleBase is IDoorPermissionProvider doorPermissionProvider)
 						flags |= doorPermissionProvider.GetPermissions(ev.Door.Base);
@@ -31,7 +30,6 @@ namespace Scp3114Fix
 					// checks the permission for the combined one
 					ev.CanOpen = ev.Door.Base.PermissionsPolicy.CheckPermissions(flags);
 					//Logger.Debug($"Can access door: CanOpen={ev.CanOpen} IsAllowed={ev.IsAllowed}");
-
 				}
 			}
 		}
